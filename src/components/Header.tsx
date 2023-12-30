@@ -11,7 +11,7 @@ const Header = () => {
       <a
         href="https://github.com/Darshan-Naik/Typer"
         target="_blank"
-        className=" underline underline-offset-2 text-secondary"
+        className="underline underline-offset-2 text-secondary"
       >
         Github
       </a>

@@ -42,7 +42,7 @@ const MainTyping = () => {
     resetTimer();
   };
   return (
-    <div className="p-12 flex-grow flex flex-col justify-center gap-4">
+    <div className="sm:flex p-12 flex-grow hidden flex-col justify-center gap-4">
       <div className="flex justify-between items-center flex-wrap gap-2">
         <Metrics
           time={formattedTime}
