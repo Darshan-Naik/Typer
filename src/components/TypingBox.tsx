@@ -24,15 +24,12 @@ const TypingBox = ({
       className="border border-primary px-12 pb-24 rounded-lg bg-secondary"
       onClick={setFocus}
     >
-      <p className="text-center pt-4 pb-20 text-xs text-secondary">
+      <p className="text-center pt-4 pb-20 text-xs text-disabled underline underline-offset-4">
         (Click/Focus) to start typing
       </p>
       <label
         htmlFor="key-input"
-        className={twMerge(
-          "text-lg text-primary",
-          !inFocus && "text-secondary"
-        )}
+        className={twMerge("text-lg text-primary", !inFocus && "text-disabled")}
       >
         {!typedSentenceCharacters.length && inFocus && <Curser />}
         {sentenceCharacters.map((character, index) => (

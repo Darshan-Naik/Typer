@@ -12,20 +12,21 @@ const Metrics = ({ time, cpm, wpm, accuracy, errorRate }: MetricsProps) => {
   return (
     <div className="flex gap-4 text-disabled text-sm">
       <p>
-        Time : <span className="text-secondary">{time}</span>
+        <span>Time : </span> <span className="text-secondary">{time}</span>
       </p>
       <p>
-        Speed :
-        <span className="text-secondary">
+        <span> Speed : </span>
+        <span className="text-secondary truncate">
           {cpm}/cpm, {wpm}/wpm
         </span>
       </p>
-
       <p>
-        Accuracy : <span className="text-success">{accuracy}% </span>
+        <span> Accuracy : </span>
+        <span className="text-success">{accuracy}% </span>
       </p>
       <p>
-        Error Rate :<span className="text-error"> {errorRate}%</span>
+        <span> Error Rate : </span>
+        <span className="text-error"> {errorRate}%</span>
       </p>
     </div>
   );

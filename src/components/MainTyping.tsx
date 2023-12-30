@@ -63,7 +63,7 @@ const MainTyping = () => {
       <div className="flex justify-end items-center">
         <button
           onClick={() => reset()}
-          className="px-8 py-2 border border-primary rounded-md text-secondary"
+          className="px-8 py-2 bg-secondary border border-primary rounded-md text-secondary"
         >
           Reset
         </button>

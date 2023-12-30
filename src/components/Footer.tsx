@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center text-sm text-secondary">
+    <div className="flex justify-between items-center text-sm text-primary">
       <p className="sm:block hidden">© 2024. All Rights Reserved</p>
       <a
         href="https://www.darshannaik.com"

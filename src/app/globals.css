@@ -4,11 +4,11 @@
 
 :root {
   --primary-bg: #000000;
-  --secondary-bg: #0b0b0b;
+  --secondary-bg: #020202;
 
-  --primary-text: #d2d2d2;
-  --secondary-text: #8c8c8c;
-  --disabled-text: #525252;
+  --primary-text: #efefef;
+  --secondary-text: #cbcbcb;
+  --disabled-text: #a0a0a0;
 
   --error-text: #ff4949;
   --success-text: #00aa00;
