@@ -14,10 +14,11 @@
   --success-text: #00aa00;
 
   --primary-border: #2a2a2a;
+  background-image: url("/main-bg.jpg");
+  background-size: cover;
 }
 
 body {
-  background-color: var(--primary-bg);
   color: var(--primary-text);
   letter-spacing: 1px;
 }

@@ -21,7 +21,7 @@ const TypingBox = ({
   const { inputRef, inFocus, setFocus } = useFocus();
   return (
     <div
-      className="border border-primary px-12 pb-24 rounded-lg bg-secondary"
+      className="border border-primary px-12 pb-24 rounded-lg backdrop-blur-lg relative "
       onClick={setFocus}
     >
       <p className="text-center pt-4 pb-20 text-xs text-disabled underline underline-offset-4">
